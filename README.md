@@ -7,10 +7,13 @@ Takes two folders containing pictures that follow a standard naming pattern
 but with the files from the second folder re-numbered to start from after the last file
 from the first folder.
 
+Designed for a problem I ran into where I filled one SD card when taking pictures
+and needed to combine the pictures from both SD cards into one folder.
+
 For example:
-Last file of Folder 1: `DSC02599.jpg`
-First file of Folder 2, originally: `DSC00001.jpg`
-First file of Folder 2, modified: `DSC02600.jpg`
+- Last file of Folder 1: `DSC02599.jpg`
+- First file of Folder 2, originally: `DSC00001.jpg`
+- First file of Folder 2, modified: `DSC02600.jpg`
 
 The script takes care of adding enough zeroes to maintain the format, too.
 
